@@ -1,0 +1,382 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A short work, but of greatest concern. By William Tomlinson.</title>
+            <author>Tomlinson, William.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1696</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 46 KB of XML-encoded text transcribed from 41 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A94748</idno>
+            <idno type="STC">Wing T1852</idno>
+            <idno type="STC">ESTC R185374</idno>
+            <idno type="EEBO-CITATION">45789433</idno>
+            <idno type="OCLC">ocm 45789433</idno>
+            <idno type="VID">172743</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A94748)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 172743)</note>
+            <note>Images scanned from microfilm: (Early English Books, 1641-1700 ; 2647:14)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A short work, but of greatest concern. By William Tomlinson.</title>
+                  <author>Tomlinson, William.</author>
+               </titleStmt>
+               <extent>72 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed and sold by T. Sowle, in White-Hart-Court in Gracious-Street,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1696.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in: Friends' Library (London, England).</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Theology, Doctrinal.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-11</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-03</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2012-03</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:172743:1" rendition="simple:additions"/>
+            <p>A Short WORK, But of Greateſt CONCERN.</p>
+            <p>By <hi>William Tomlinſon.</hi>
+            </p>
+            <q>
+               <bibl>
+                  <hi>Rom. IX. 28.</hi>
+               </bibl> For he will finiſh the Work, and cut it ſhort in Righteouſneſs; becauſe a ſhort Work will the Lord make up<g ref="char:EOLhyphen"/>on the Earth.</q>
+            <p>
+               <hi>London,</hi> Printed and Sold by <hi>T. Sowle,</hi> in <hi>White-Hart-Court</hi> in <hi>Gracious-Street.</hi> 1696.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:172743:2"/>
+            <pb n="3" facs="tcp:172743:2"/>
+            <head>A Short Work, but of Greateſt Concern.</head>
+            <head type="sub">The Lord will cut his Work ſhort in Righteouſneſs.</head>
+            <p>TIme hath been where<g ref="char:EOLhyphen"/>in there have been many Precepts; <hi>Pre<g ref="char:EOLhyphen"/>cept upon Precept, Line upon Line,</hi> under the Miniſtration of the Law, <hi>Iſa.</hi> 28.13. But under the Goſpel the Lord doth contract them, and bring them under one Head; and that is the Spirit of God, to be
+<pb n="4" facs="tcp:172743:3"/>led and guided thereby. <hi>And he ſhall lead into all Righteouſ<g ref="char:EOLhyphen"/>neſs and Truth, John</hi> 16.13. and out of the <hi>Luſts of the Fleſh, Gal.</hi> 5.16. This I ſay then, <hi>Walk in the Spirit,</hi> and ye ſhall not <hi>fulfil the Luſt of the Fleſh.</hi> And this Guide and Leader is promiſed to abide with the true Servants of God for ever, <hi>John</hi> 14.16, 17. So that <hi>if any Man have not the Spirit of Chriſt, he is none of his, Rom.</hi> 8.9.</p>
+            <p>The time cometh, and draws near at hand, wherein People ſhall not be look'd up<g ref="char:EOLhyphen"/>on as the People of God, be<g ref="char:EOLhyphen"/>cauſe they are of ſuch or ſuch an Opinion; or becauſe they are in ſuch or ſuch a Society;
+<pb n="5" facs="tcp:172743:3"/>or belong to ſuch a ſort of Peo<g ref="char:EOLhyphen"/>ple, and walk with them, let it be under whatſoever Name is extant, whether Papiſt, or Proteſtant, or any other Name.</p>
+            <p>Nor ſhall Eminent Gifts and Parts ſhelter any Man. <hi>Many will ſay, Lord, Lord, have we not propheſied in thy Name? And in thy Name have caſt out Devils? And in thy Name done many wonderful works?</hi> But what's the Anſwer to them that can plead thus, from the Ability of Gifts, and live not Righteouſly? The Anſwer is this, <hi>I never knew you, depart from me, ye that work iniquity, Mat.</hi> 7.22, 23. Iniquity daſhes all Excellent Abilities, and
+<pb n="6" facs="tcp:172743:4"/>puts one out of God's Ac<g ref="char:EOLhyphen"/>knowledgment of their Per<g ref="char:EOLhyphen"/>ſons.</p>
+            <p>Whereby we may obſerve, <hi>That it is not Eminent Gifts and Parts that ſtates a Man in a happy Condition, although theſe are good, and to be pri<g ref="char:EOLhyphen"/>zed.</hi>
+            </p>
+            <p>
+               <hi>Query,</hi> Some may ſay then, perhaps, <hi>What is it then that makes us happy, if ſuch Eminent Gifts and Parts do not?</hi>
+            </p>
+            <p>
+               <hi>Anſwer.</hi> I anſwer, It is hum<g ref="char:EOLhyphen"/>ble walking with the Lord, as a Child in his holy Spirit, <hi>Mat.</hi> 18.3. <hi>Verily I ſay unto you, Except ye be Converted,
+<pb n="7" facs="tcp:172743:4"/>and become as little Children, ye ſhall not enter into the Kingdom of Heaven.</hi> This is alſo plain<g ref="char:EOLhyphen"/>ly expreſt in other words, (be<g ref="char:EOLhyphen"/>fore-named) where the Apo<g ref="char:EOLhyphen"/>ſtle ſaith expreſly, <hi>If any Man have not the Spirit of Chriſt, he is none of his, Rom.</hi> 8.9. But on the contraty, <hi>As many as are led by the Spirit of God, they are the Sons of God.</hi>
+            </p>
+            <p>So then it's plain, That our Sonſhip is eſtabliſhed in the Spirit. If we be led by the Spirit of God we are in the Sonſhip; but if we be not in ſome meaſure led by that, we are not in the Son<g ref="char:EOLhyphen"/>ſhip, but remain Strangers to God in our Spirits. But
+<pb n="8" facs="tcp:172743:5"/>if we be led by the Spirit of God, <hi>the Spirit it ſelf will bear witneſs with our Spi<g ref="char:EOLhyphen"/>rit, that we are the Children of God, Rom.</hi> 8.16. And here now is the Work cut ſhort in Righteouſneſs.</p>
+            <p>And hereby it is plainly ma<g ref="char:EOLhyphen"/>nifeſt, That our Happineſs lyes herein, namely, in being led by the Spirit of God, and walking humbly with him therein.</p>
+            <p>And this is the chief ten<g ref="char:EOLhyphen"/>dency, and the very ſubſtance of the New Covenant, and of the New Teſtament which te<g ref="char:EOLhyphen"/>ſtifies of it, to bring us to this, and build us up in this; name<g ref="char:EOLhyphen"/>ly,
+<pb n="9" facs="tcp:172743:5"/>to bring us into ſubjection to the Spirit of God, and to build us up therein, that ſo we may come to walk in Fel<g ref="char:EOLhyphen"/>lowſhip with our God. 1 <hi>Joh.</hi> 1.3. <hi>That which we have ſeen and heard declare we unto you, that ye may have Fellowſhip with us; and truly our Fellowſhip is with the Father, and with his Son Jeſus Christ.</hi> And the words of our Lord and Savi<g ref="char:EOLhyphen"/>our Jeſus Chriſt are very a<g ref="char:EOLhyphen"/>greeable hereunto, <hi>John</hi> 14.23. where he ſaith, <hi>If a Man love me, he will keep my words, and my Father will love him, and we will come unto him, and make our abode with him.</hi>
+            </p>
+            <pb n="10" facs="tcp:172743:6"/>
+            <p>O happy State and Condi<g ref="char:EOLhyphen"/>tion, to have Fellowſhip with our God! This makes happy both here and hereafter. And this the true Sons of God en<g ref="char:EOLhyphen"/>joy, who walk humbly with him in Spirit.</p>
+            <p>And in this ſhort work now, in walking with him in the Spirit, and having Fel<g ref="char:EOLhyphen"/>lowſhip with him in the Spi<g ref="char:EOLhyphen"/>rit, all Iniquity is cut off, and all Righteouſneſs is compre<g ref="char:EOLhyphen"/>hended and eſtabliſhed; for he leads into all Truth.</p>
+            <p>I ſay, all Iniquity is cut off: So that he that walks in the Spirit, gives no real occaſion of ſtumbling. <hi>Walk in the Spirit,</hi> and ye ſhall not <hi>fulfil the Luſts of the Fleſh, Gal.</hi> 5.16.
+<pb n="11" facs="tcp:172743:6"/>And ſo hereby that which gives real offence is cut off.</p>
+            <p>It's poſſible ſome may take offence where none is given, as the <hi>Jews</hi> did againſt Chriſt. So ſome may do now in theſe Days, who are wedded to Tradition: They may take offence at the Truth, when their Traditions in which they are rooted, and grounded, are diſcovered, reproved or con<g ref="char:EOLhyphen"/>tradicted thereby. But this is not Truth that gives the of<g ref="char:EOLhyphen"/>fence; but their Errour, that take offence where none is re<g ref="char:EOLhyphen"/>ally given; as the <hi>Jews</hi> did take offence againſt Chriſt without juſt cauſe.</p>
+            <p>And as walking in the Spi<g ref="char:EOLhyphen"/>rit of Truth cuts off all Iniqui<g ref="char:EOLhyphen"/>ty,
+<pb n="12" facs="tcp:172743:7"/>and all corrupt Luſts of the Fleſh, ſo it eſtabliſhes the Obedient in all Righteouſneſs. For the Spirit leads into all Righteouſneſs where he is faithfully followed and obey<g ref="char:EOLhyphen"/>ed. <hi>He will guide you</hi> (or lead you) <hi>into all Truth, John</hi> 16.13. That is, by degrees, as he is obeyed.</p>
+            <p>There be many falſe Spirits gone forth into the World, but the Spirit of Truth will diſcover them; and by their Fruits they ſhall be diſcover<g ref="char:EOLhyphen"/>ed. For ſaith Chriſt Jeſus, <hi>By their Fruits ye ſhall know them, Mat.</hi> 7.16, to Ver. 20. <hi>A good Tree cannot bring forth evil Fruit; neither can a cor<g ref="char:EOLhyphen"/>rupt Tree bring forth good
+<pb n="13" facs="tcp:172743:7"/>Fruit;</hi> therefore their Fruits ſhall diſcover them; for God hath ſo appointed it.</p>
+            <p>Now then what are the Fruits of the true Spirit, that thereby in ſome meaſure we may be able to diſcover falſe Spirits, and may diſcern a dif<g ref="char:EOLhyphen"/>ference? For Chriſt Jeſus tells us, <hi>By their Fruits ye ſhall know them.</hi>
+            </p>
+            <p>I anſwer with the Apoſtle's words, <hi>Gal.</hi> 5.22. <hi>The Fruit of the Spirit is Love, Joy, Peace, Long-ſuffering, Gentleneſs, Goodneſs, Faith, Meekneſs, Temperance; againſt ſuch</hi> (ſaith he) <hi>there is no Law.</hi> The Af<g ref="char:EOLhyphen"/>fections and Luſts of the Fleſh they are hereby cut off, as the next Verſe expreſſes, <hi>viz.</hi>
+               <pb n="14" facs="tcp:172743:8"/>Ver. 24. in theſe words, <hi>And they that are Chriſt's, have Cru<g ref="char:EOLhyphen"/>cified the Fleſh, with the Affecti<g ref="char:EOLhyphen"/>ons and Luſts.</hi>
+            </p>
+            <p>This is the happy ſtate of the true Children of God, who walk humbly with him in his Holy Spirit, and grow up therein to the ſtature of a perfect Man in Chriſt Jeſus. They are led by the Spirit of God in theſe true Fruits of the Spirit. And they have the Teſtimony of the Spirit of God witneſſing with their Spirits that they are his.</p>
+            <p>And here now is the King<g ref="char:EOLhyphen"/>dom of God ſet up; God ru<g ref="char:EOLhyphen"/>ling by his holy Spirit in our Hearts, and Man obeying, and walking humbly with him in
+<pb n="15" facs="tcp:172743:8"/>Obedience; and ſo enjoying his Comfortable Preſence, and Witneſs of his Holy Spirit, as it was promiſed, 2 <hi>Cor.</hi> 6.16. That he would <hi>dwellin his holy People, and walk in them.</hi> And thus the Kingdom of God is ſet up in his People: For ſaith Chriſt Jeſus, <hi>The Kingdom of God is within you, Luke</hi> 17.21.</p>
+            <p>Now the way to this King<g ref="char:EOLhyphen"/>dom is to be minded and en<g ref="char:EOLhyphen"/>tred into, if Men would come into it. For <hi>ſtrait is the Gate, and narrow is the Way that leads to it, and ſo to Life, and few find it,</hi> ſaith Chriſt Jeſus. And on the other hand, <hi>Broad is the Way, and wide is the Gate that leadeth to Deſtruction, and ma<g ref="char:EOLhyphen"/>ny
+<pb n="16" facs="tcp:172743:9"/>there be which go in thereat.</hi> And here many fall ſhort of the Kingdom, becauſe they take the broad and eaſie way, and forſake the ſtrait and nar<g ref="char:EOLhyphen"/>row way that leads to Life, <hi>Mat.</hi> 7.13, 14.</p>
+            <p>But they that do humble themſelves before the Lord, and ſeek with their whole Heart to enter into the King<g ref="char:EOLhyphen"/>dom of God, to them God will open a way for them to find what their Souls long for. For ſaith Chriſt Jeſus, <hi>Ask, and ye ſhall receive; ſeek, and ye ſhall find; knock, and it ſhall be opened unto you, Mat.</hi> 7.7.</p>
+            <p>There be many that mind not their future Condition, what will become of them?
+<pb n="17" facs="tcp:172743:9"/>They mind not another World to come; and therefore they run on as it were hoodwinkt, and mind not the way that leads to Eternal Happineſs; and ſo remain Strangers to God in their Spirits; not con<g ref="char:EOLhyphen"/>ſidering the true ſtate of Chri<g ref="char:EOLhyphen"/>ſtianity now under the Goſpel, which is this, namely, <hi>To know the Lord, and to walk in Fellowſhip with him in Spirit, Heb.</hi> 8.11. and 1 <hi>John</hi> 1.3, 6. But they think if they keep on in their Form, all ſhall be well with them; not con<g ref="char:EOLhyphen"/>dering, that a Form of Godli<g ref="char:EOLhyphen"/>neſs, without the Life and Power of Godlineſs, (which conſiſts in Living in the Spirit and Fruits thereof) will not
+<pb n="18" facs="tcp:172743:10"/>be ſufficient. For ſome had a Form of Godlineſs in the A<g ref="char:EOLhyphen"/>poſtles Days, but yet without the Spirit and Power of Godli<g ref="char:EOLhyphen"/>neſs; <hi>from ſuch</hi> (ſaith he) <hi>turn away,</hi> 2 <hi>Tim.</hi> 3.5.</p>
+            <p>Now leſt any tender Spirits ſhould be diſcouraged, and think with themſelves, that they are far from this happy ſtate of being the Children of God, becauſe they find them<g ref="char:EOLhyphen"/>ſelves loaden and burthened with Corruption, and with many Frailties and Infirmities which they are often overta<g ref="char:EOLhyphen"/>ken with; let them conſider how low the Lord hath conde<g ref="char:EOLhyphen"/>ſcended to Mankind, in order to bring us to Happineſs. He hath not ſpared his Beloved
+<pb n="19" facs="tcp:172743:10"/>Son, but hath freely given him up to become a Sacrifice for us, that we might have boldneſs through him to draw near unto God. And ſo far doth the Lord condeſcend to Mankind, that he deſpiſes not the leaſt faithful Drawings of Man's Heart towards him. <hi>He will not quench the ſmoaking Flax, nor break the bruiſed Reed.</hi> The leaſt true motions that are in the Heart of Man towards him he doth not de<g ref="char:EOLhyphen"/>ſpiſe, but nouriſhes them, and cheriſhes them, that Men may grow up in his Holy Spirit, which begets thoſe holy Mo<g ref="char:EOLhyphen"/>tions, and Inclinations in them, and Breathings after the Lord. Therefore let none
+<pb n="20" facs="tcp:172743:11"/>think the Lord a hard Maſter to ſerve. For he hath ſaid and affirmed, that he delights not in the Death of a Sinner, but that he ſhould turn from his Iniquities and live.</p>
+            <p>But the great difficulty lies here, Men are ſo glewed to their ſinful Courſes, that they will not be ſeparated from them, and ſo put the Lord from them afar off. For he will have no Fellowſhip with Iniquity. <hi>For what Communi<g ref="char:EOLhyphen"/>on can Light have with Dark<g ref="char:EOLhyphen"/>neſs? Or Righteouſneſs with <g ref="char:V">Ʋ</g>nrighteouſneſs? But he will draw near to them that draw near to him, Jam.</hi> 4.8. And he will acquaint them with the true Paths, and Teach<g ref="char:EOLhyphen"/>ings,
+<pb n="21" facs="tcp:172743:11"/>and Leadings of his Holy Spirit; and will give them a Diſcerning to ſee a difference between the true Spirit and falſe Spirits. And without all doubt, this was one reaſon of giving forth the ſeveral parts of the <hi>New Teſtament,</hi> that falſe and Erroneous Doctrines and Spirits might thereby (with the Spirit of Chriſt o<g ref="char:EOLhyphen"/>pening them) be detected and made known. And there<g ref="char:EOLhyphen"/>fore they that judge aright of Doctrines and Practices, they judge according to the Holy Scriptures, and not by Tra<g ref="char:EOLhyphen"/>dition, or common Practice, as too many do.</p>
+            <p>I may ſafely ſay, That the Holy Spirit is the Standard of
+<pb n="22" facs="tcp:172743:12"/>the Goſpel, and new Cove<g ref="char:EOLhyphen"/>nant; and to that we muſt repair, if we would come un<g ref="char:EOLhyphen"/>der the protection of the New Covenant. For therein (name<g ref="char:EOLhyphen"/>ly in the Spirit of Chriſt) is the Sonſhip or Adoption eſta<g ref="char:EOLhyphen"/>bliſhed, as is manifeſt from <hi>Rom.</hi> 8.9, 14, 15.</p>
+            <p>For further Confirmation of this, that our Happineſs lyes in having Fellowſhip with God in our Spirits, and in be<g ref="char:EOLhyphen"/>ing led by his Spirit, let theſe Scriptures following be well minded.</p>
+            <p>
+               <hi>Rom.</hi> 8.1. <hi>There is therefore now no Condemnation to them which are in Chriſt Jeſus, who walk not after the Fleſh, but af<g ref="char:EOLhyphen"/>ter the Spirit.</hi> This Chapter
+<pb n="23" facs="tcp:172743:12"/>ought carefully to be minded, eſpecially the former part of it, which ſpeaks of being led by the Spirit of God, unto Ver. 18. to which you may add Ver. 26, 27. whereby you may ſee that the truly happy ſtate of a Chriſtian lies in be<g ref="char:EOLhyphen"/>ing led by the Spirit of God, and in having Fellowſhip with God therein.</p>
+            <p>Another Scripture to this purpoſe is this, 1 <hi>Cor.</hi> 3.16, 17. <hi>Know ye not that ye are the Temple of God? And that the Spirit of God dwelleth in you? If any Man defile the Temple of God, him ſhall God deſtroy: for the Temple of God is holy, which Temple ye are.</hi>
+            </p>
+            <pb n="24" facs="tcp:172743:13"/>
+            <p>Add to this the 19th and 20th Verſes of the ſixth Chap<g ref="char:EOLhyphen"/>ter, where the words are theſe, <hi>What, know ye not that your Body is the Temple of the Holy Ghoſt,</hi> (or Holy Spirit) <hi>which is in you, which ye have of God? And ye are not your own, For ye are bought with a price; therefore glorifie God in your Body, and in your Spirit, which are God's.</hi>
+            </p>
+            <p>Again, 2 <hi>Cor.</hi> 1.22. and Chap. 5. Ver. 5. It's there expreſſed, that the Spirit is the Seal and the Earneſt of our Inheritance; that is, of our Heavenly Inheritance. Now an Earneſt is the enſu<g ref="char:EOLhyphen"/>ring of a thing to one; and ſo is a Seal. And Men are very
+<pb n="25" facs="tcp:172743:13"/>careful to keep their Seal en<g ref="char:EOLhyphen"/>tire and ſafe, tho' it be but for an Earthly Inheritance; how much more ought we to be very careful to keep abiding in the Spirit, which is our Seal and Earneſt for an Eter<g ref="char:EOLhyphen"/>nal Inheritance.</p>
+            <p>Again, let theſe words be well minded, <hi>Gal.</hi> 4.6. <hi>And becauſe ye are Sons, God hath ſent forth the Spirit of his Son into your Hearts, crying, Abba, Father.</hi>
+            </p>
+            <p>And again, <hi>Gal.</hi> 6.8. it's there ſaid, <hi>He that ſoweth to the Fleſh, ſhall of the Fleſh reap Corruption; but he that ſoweth to the Spirit, ſhall of the Spirit reap Life Everlaſting.</hi> So then our Everlaſting Life muſt
+<pb n="26" facs="tcp:172743:14"/>ſpring from the Spirit; how careful then ought we to be, to be acquainted with the Spi<g ref="char:EOLhyphen"/>rit of God, and to walk hum<g ref="char:EOLhyphen"/>bly with him in the Holy Spi<g ref="char:EOLhyphen"/>rit!</p>
+            <p>And therefore <hi>Eph.</hi> 4.30. the Apoſtle admoniſheth us, ſaying, <hi>Grieve not the Holy Spirit of God, whereby ye are ſealed unto the Day of Redemp<g ref="char:EOLhyphen"/>tion.</hi> And in 1 <hi>Theſ.</hi> 5.19. we are admoniſhed not to quench the Spirit. And there<g ref="char:EOLhyphen"/>fore again I ſay, how careful ought we to be, that we do not grieve or quench the Spi<g ref="char:EOLhyphen"/>rit of God, which is the Seal of our Heavenly Inheritance.</p>
+            <p>Laſtly, I ſhall add to theſe but one Scripture more, which
+<pb n="27" facs="tcp:172743:14"/>is, 1 <hi>John</hi> 4.13. <hi>Hereby know we that we dwell in him,</hi> (that is, in God) <hi>and he in us, becauſe he hath given us of his Spirit.</hi>
+            </p>
+            <p>Thus you may ſee, that the Spirit of God is the great thing that we are to labour for, and ſubmit unto; and to ſeek of the Lord to be endowed there<g ref="char:EOLhyphen"/>with, that we may be led thereby now under the Go<g ref="char:EOLhyphen"/>ſpel, which if any Man have not, he is none of Chriſt's, ſaith the Apoſtle plainly, <hi>Rom.</hi> 8.9.</p>
+            <p>But Chriſt Jeſus hath pro<g ref="char:EOLhyphen"/>miſed for them that love him, and keep his Commands, <hi>That he will pray the Father for them,</hi> and ſaith he. <hi>He will give you another Comforter, that he may
+<pb n="28" facs="tcp:172743:15"/>abide with you for ever, even the Spirit of Truth, whom the world cannot receive, becauſe it ſeeth him not, neither knoweth him; but ye know him, for he dwelleth with you, and ſhall be in you, John</hi> 14.15, 16, 17. Here he makes a clear diſtinction be<g ref="char:EOLhyphen"/>tween the World and his Peo<g ref="char:EOLhyphen"/>ple who love him, and keep his Commands. <hi>The World ſeeth not, neither knoweth the Spirit of Truth; but ye know him,</hi> (ſaith he) <hi>for he dwelleth with you, and ſhall be in you.</hi> Here's a comfortable Promiſe to the true Servants of Chriſt. And happy is that Perſon that ſubmits to ſuch a Companion, which will be a continual Guide to him; and which
+<pb n="29" facs="tcp:172743:15"/>will check him when he turns to the Right Hand, or to the Left, out of the way.</p>
+            <p>Thus we are in thoſe times wherein the Spirit of God is made the Guide and Leader of his People who know him.</p>
+            <p>And therefore ſo many falſe Spirits are come forth to divert Man from following the true Spirit. For Satan hath beſtirred himſelf to with<g ref="char:EOLhyphen"/>ſtand Man's Happineſs.</p>
+            <p>I ſay we are in the times of the Miniſtration of the Spirit, (which gives Life to them that obey him) as you may read plainly expreſſed in the third Chapter of the ſecond Book to the <hi>Corinthians.</hi> The whole Chapter is worthy to
+<pb n="30" facs="tcp:172743:16"/>be minded; for it ſpeaks ma<g ref="char:EOLhyphen"/>nifeſtly of the change of the Miniſtration or Covenant. And there the firſt Covenant is called <hi>the Miniſtration of Death written and engraven in Stones,</hi> Ver. 7. And the New Covenant (which we are or ought to be under) is called <hi>the Miniſtration of the Spirit,</hi> Ver. 8. And again, the firſt Covenant, (that is the Law) is called <hi>the Miniſtration of Condemnation:</hi> and the New Covenant (that is the Spirit) is called <hi>the Miniſtration of Righteouſneſs,</hi> Ver. 9. of that Chapter in theſe words, <hi>For if the Miniſtration of Condem<g ref="char:EOLhyphen"/>nation be glorious, much more doth the Miniſtration of Righ<g ref="char:EOLhyphen"/>teouſneſs
+<pb n="31" facs="tcp:172743:16"/>exceed in Glory.</hi> And Ver. 11. it ſaid thus concern<g ref="char:EOLhyphen"/>ing theſe two Miniſtrations; <hi>For if that which is done away was glorious, much more that which remaineth is glorious.</hi>
+            </p>
+            <p>Thus you may ſee it very plain, that there is a change of the Covenant; and that we are under the times of the New Covenant; which is the Spirit. And further, That none are actually in the Son<g ref="char:EOLhyphen"/>ſhip or Adoption, and reputed the Sons or Children of God under the New Covenant, but thoſe who are led by the Spirit of God; or hungring and thirſting after Righteouſ<g ref="char:EOLhyphen"/>neſs, which the Spirit is the Author and Nouriſher of.</p>
+            <pb n="32" facs="tcp:172743:17"/>
+            <p>And this is the true ſtate of Chriſtianity; in the which God hath a number who walk with him therein, tho' little diſcerned by the World. He hath alſo others who are preſ<g ref="char:EOLhyphen"/>ſing forward, ſtriving to over<g ref="char:EOLhyphen"/>come; and them he carries as Lambs in his Arms, <hi>Iſa.</hi> 40.11. And theſe are as little Chil<g ref="char:EOLhyphen"/>dren whoſe Sins are forgiven, 1 <hi>John</hi> 2.12.</p>
+            <p>And others there are who did run well, but faint and flag before they come to their Journeys end. And ſome turn back with the Dog to his Vo<g ref="char:EOLhyphen"/>mit, and with the Sow that was waſhed, to her wallow<g ref="char:EOLhyphen"/>ing in the Mire, 2 <hi>Pet.</hi> 2.22. And ſome content themſelves
+<pb n="33" facs="tcp:172743:17"/>with a Form of Godlineſs, without the Life and Power thereof.</p>
+            <p>The Law had many Pre<g ref="char:EOLhyphen"/>cepts, but the Goſpel hath contracted all good Precepts under one Head; and that is, (as hath been ſhewed) under the guidance of the Spirit of God. And this was their Rule they were guided by and led by, in the Primitive Time; as it is plainly expreſſed, <hi>Gal.</hi> 6.15, 16, Verſes, in theſe words, <hi>For in Chriſt Jeſus nei<g ref="char:EOLhyphen"/>ther Circumciſion availeth any thing, nor <g ref="char:V">Ʋ</g>ncircumciſion, but a New Creature,</hi> (or New Crea<g ref="char:EOLhyphen"/>tion, as the words <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> do properly bear, <hi>Mark</hi> 10.6.) <hi>And as many as walk according
+<pb n="34" facs="tcp:172743:18"/>to this Rule, (viz.</hi> this of the New Creation) <hi>Peace be on them, and Mercy;</hi> or Peace is upon them, and Mercy; for ſo the words do as well bear; and they do enjoy Peace and Mercy, who walk according to that New Creation of the Spirit of God in the Heart; and they are now the true <hi>Iſ<g ref="char:EOLhyphen"/>rael</hi> of God, <hi>Rom.</hi> 2.28, 29. I ſay, this was their Rule they were guided by in the Primi<g ref="char:EOLhyphen"/>tive Time: For the Scriptures of the <hi>New Teſtament</hi> were not fully writ until a many Years after Chriſt's Aſcenſion; but the Spirit was their Guide and Leader; and then from that Holy Spirit they gave forth the Writings of the <hi>New Te<g ref="char:EOLhyphen"/>ſtament;</hi>
+               <pb n="35" facs="tcp:172743:18"/>not to divert Men from following the Spirit, but to guide Men in Obedience to the true Spirit, and to avoid thoſe falſe Spirits that were then come forth into the World. For that's the chief tendency of the <hi>New Teſta<g ref="char:EOLhyphen"/>ment,</hi> to direct and guide us in our Obedience to the true Spirit of God, and to avoid all falſe Spirits.</p>
+            <p>In the time of the Law they were under the Letter; but when Chriſt the Miniſter of the New Covenant came, he brought them on by degrees to the Miniſtration of the Spi<g ref="char:EOLhyphen"/>rit; giving forth, firſt of all Precepts ſuitable to the Spirit, while he was here in Perſon
+<pb n="36" facs="tcp:172743:19"/>upon Earth. And then after his Aſcenſion, he miniſtred to them by the Spirit, as he had promiſed while he was with them, <hi>John</hi> 14.15, 16, 17, 18. and Chap. 16.13, 14. and Chap. 15.26.</p>
+            <p>This is the great condeſcen<g ref="char:EOLhyphen"/>tion of the Lord to Mankind, to lead gradually thoſe that love him, as they are able to bear.</p>
+            <p>For as there is a gradual go<g ref="char:EOLhyphen"/>ing forward of his publick Di<g ref="char:EOLhyphen"/>ſpenſations, ſo alſo in his lead<g ref="char:EOLhyphen"/>ing of particular Perſons, from ſtep to ſtep.</p>
+            <p>When he had choſen a Peo<g ref="char:EOLhyphen"/>ple out from the reſt of Man<g ref="char:EOLhyphen"/>kind, namely the <hi>Iſraelites,</hi> the Seed of <hi>Abraham, Iſaac,</hi>
+               <pb n="37" facs="tcp:172743:19"/>and <hi>Jacob;</hi> he gave them Car<g ref="char:EOLhyphen"/>nal Ordinances ſuitable to their Condition, <hi>Heb.</hi> 9.10. and after that he raiſed up Prophets among them, to raiſe their Minds and Hearts a little higher, after a more Spiritual Walking with him. Then after that he ſent <hi>John the Baptiſt</hi> to prepare the way for greater things which were to follow. For the Kingdom of Heaven was then at hand. And thus way was made gra<g ref="char:EOLhyphen"/>dually for the coming of Chriſt Jeſus, that Men might believe on him when he came.</p>
+            <p>Thus the Lord carried on his publick Work gradually; and thus alſo he frequently carries on his Work in parti<g ref="char:EOLhyphen"/>cular
+<pb n="38" facs="tcp:172743:20"/>Perſons, from ſtep to ſtep. And it is well for them that follow him in his Lead<g ref="char:EOLhyphen"/>ings and Drawings, and take not up their Reſt, or ſtop in the Way, but hold on to fol<g ref="char:EOLhyphen"/>low the Lord. For he doth not uſually communicate all at once to his People, altho' he may give much Comfort ſometimes at the firſt turning of Man's Heart faithfully to him. But he communicates by degrees to them that truly follow him, and as they are capable to receive, and able to bear. To his Diſciples Chriſt ſaid, <hi>I have many things to ſay unto you, but you cannot bear them now, John</hi> 16.12. ſo he communicated to them as
+<pb n="39" facs="tcp:172743:20"/>they could bear. And ſo he did to <hi>Paul, Acts</hi> 26.16. he did not make him a Miniſter and a Witneſs of all at once, but appeared to him, to make him a Miniſter and a Witneſs of thoſe things which he had ſeen, and of thoſe things in the which he would afterwards appear to him. Thus the Lord doth condeſcend to take us by the Hand, as it were, to lead us on from one degree to another, where there is a willing Heart to follow him. And there may be ſtill a going forward, and growing up in the Lord while we are in this Life. <hi>Paul,</hi> that Eminent Ser<g ref="char:EOLhyphen"/>vant of the Lord, after all his Viſions, and great Attain<g ref="char:EOLhyphen"/>ments,
+<pb n="40" facs="tcp:172743:21"/>and Perfections, ſtill ſaith, <hi>I preſs forward, Phil.</hi> 3.14, 15.</p>
+            <p>And thus the Miniſtry of Chriſt was and is to lead us forward by degrees: Not on<g ref="char:EOLhyphen"/>ly to bring us on thorough the Miniſtration of the Law, or of the Letter, (as it's called) but to bring us under the Mi<g ref="char:EOLhyphen"/>niſtration of the Spirit, ſo as to be led thereby, and to grow up therein; and ſo to eſtabliſh us in the Sonſhip or Adop<g ref="char:EOLhyphen"/>tion.</p>
+            <p>Thus under the Miniſtrati<g ref="char:EOLhyphen"/>on of the Goſpel, the Work is cut ſhort in Righteouſneſs; namely, in ſubjecting the Heart of Man to the Spirit of God, which works all Righ<g ref="char:EOLhyphen"/>teouſneſs
+<pb n="41" facs="tcp:172743:21"/>in us gradually, if we be faithful thereunto. And it will admit of no Iniquity, if we faithfully follow the gui<g ref="char:EOLhyphen"/>dance thereof. For God hath comprehended all Righteouſ<g ref="char:EOLhyphen"/>neſs in the Spirit, and in the Fruits thereof. <hi>It is the Spirit that leads into all Truth.</hi>
+            </p>
+            <p>This is the great Diſpenſa<g ref="char:EOLhyphen"/>tion of the Lord under the Go<g ref="char:EOLhyphen"/>ſpel. This Satan knows, and therefore was he, and yet is ſo buſie to ſuggeſt other Spirits, whereby to divert Men, and turn them aſide from the true Spirit, by appearances of other Spirits, and with ſome reſem<g ref="char:EOLhyphen"/>blance of the true: This he did very early in the Apoſtles Days, as we may obſerve by
+<pb n="42" facs="tcp:172743:22"/>the Writings or Epiſtles of the Apoſtle <hi>Paul,</hi> in which we may ſee how he was con<g ref="char:EOLhyphen"/>ſtrained to vindicate himſelf, and his Miniſtry, againſt thoſe falſe Teachers, who de<g ref="char:EOLhyphen"/>ſired occaſion againſt him, 2 <hi>Cor.</hi> 11.12. Falſe Apoſtles may deſpiſe and vilifie them that are in the Truth, and may transform themſelves as the Apoſtles of Chriſt: Satan himſelf can transform himſelf into an Angel of Light; there<g ref="char:EOLhyphen"/>fore it is no great thing if his Miniſters alſo be transformed as the Miniſters of Righteouſ<g ref="char:EOLhyphen"/>neſs, 2 <hi>Cor.</hi> 11.12, 13, 14, 15.</p>
+            <p>I do not ſpeak this to vilifie any faithful Miniſters; but to
+<pb n="43" facs="tcp:172743:22"/>ſhew the great ſubtilty of Sa<g ref="char:EOLhyphen"/>tan: And for this end, that we may be all careful to keep cloſe to our true Guide, the Spirit of God, which leads in<g ref="char:EOLhyphen"/>to all Righteouſneſs, and out of all falſe Appearances, and gives the comfortable Teſti<g ref="char:EOLhyphen"/>mony of his preſence in the Hearts of thoſe that faithfully obey him, and walk humbly with him.</p>
+            <p>But ſome perhaps may ſay, <hi>How ſhall we know theſe deceit<g ref="char:EOLhyphen"/>ful Workers, theſe falſe Spi<g ref="char:EOLhyphen"/>rits?</hi>
+            </p>
+            <p>I <hi>Anſwer,</hi> I write not this ſo much to diſcover any ſuch, but that every one may be
+<pb n="44" facs="tcp:172743:23"/>careful to examine themſelves, and be ſtirred up to beware of Satan's Wiles. It is a hard matter to know deceitful Workers by their good Words, or fair Speeches, or Miniſteri<g ref="char:EOLhyphen"/>al Gifts and Parts, which they once had given them. It's ſaid, That Gifts ſhall be given alſo, even to the Rebellious, Pſal. 68.18. <hi>Thou haſt aſcend<g ref="char:EOLhyphen"/>ed on high, thou haſt led Capti<g ref="char:EOLhyphen"/>vity Captive, thou haſt received Gifts for Men; yea, for the Rebellious alſo, that the Lord God might dwell among them.</hi> And ſome will ſo reſt upon their Miniſterial Gifts, and not upon the Giver, that they will make them a plea for themſelves when the Lord
+<pb n="45" facs="tcp:172743:23"/>comes to judge, as hath been ſhewed before, from <hi>Mat.</hi> 7.22. But the Excellency of Miniſterial Gifts will not ſhel<g ref="char:EOLhyphen"/>ter Workers of Iniquity; al<g ref="char:EOLhyphen"/>tho' ſuch Gifts be very ſer<g ref="char:EOLhyphen"/>viceable, and worthy to be deſired. And it is the Apo<g ref="char:EOLhyphen"/>ſtle's Exhortation. 1 <hi>Cor.</hi> 12.31. to <hi>covet earneſtly the beſt Gifts.</hi> But <hi>yet</hi> (ſaith he) <hi>I ſhew unto you a more excellent way;</hi> and that more excellent way he expreſſes at large in the whole Chapter following, that is, in Chap. 13. where he ſaith thus, <hi>Though I ſpeak with the Tongue of Men, and of Angels, and have not</hi> love (for ſo it may and ought to be Tranſlated from the Greek
+<pb n="46" facs="tcp:172743:24"/>words <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>and have not</hi> Love) <hi>I am become as ſounding Braſs, or a tinkling Cymbal.</hi> [That that word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> ought to be Tranſla<g ref="char:EOLhyphen"/>ted Love in this Chapter, I ſhall ſhew by and by, with Reaſons for it.]</p>
+            <p>If any inſiſt ſtill upon that Query before mentioned, and ſay, <hi>How ſhall we know theſe falſe Spirits, theſe deceitful Workers that have been ſpoken of? We would fain know them.</hi>
+            </p>
+            <p>I <hi>Anſwer</hi> ſtill, Where it may be a hard matter for us to diſtinguiſh aright of others, Our beſt courſe is to approve our own Hearts to the Lord;
+<pb n="47" facs="tcp:172743:24"/>and to walk ſo that we may have the Teſtimony of a good Conſcience in our ſelves, that we are approved of the Lord: Then ſhall we have rejoicing in our own Boſoms from the comfortable Witneſs of the Spirit of God. For <hi>the Spirit</hi> will <hi>witneſs with our Spirits,</hi> (if we walk in Obedience) <hi>that we are the Children of God, Rom.</hi> 8.16. As for others, it will be a hard matter to di<g ref="char:EOLhyphen"/>ſtinguiſh aright between Tares and Wheat: They may take Tares for good Wheat, or good Wheat for Tares, if they keep not to the Holy Spirit.</p>
+            <p>True it is, that ſome Mens Sins are open beforehand, and
+<pb n="48" facs="tcp:172743:25"/>go before unto Judgment, and ſome Mens they follow after, 1 <hi>Tim.</hi> 5.24. Some are ſo openly and manifeſtly wick<g ref="char:EOLhyphen"/>ed, that they are judged of all Men; but others, they fol<g ref="char:EOLhyphen"/>low after.</p>
+            <p>I come now to ſhew, that the words <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> men<g ref="char:EOLhyphen"/>tioned before, ought to be Tranſlated thus, in my Judgment, <hi>viz. And have not</hi> love.</p>
+            <p>And in the firſt place, I ſhall ſhew that the word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> is moſt frequently Tran<g ref="char:EOLhyphen"/>ſlated <hi>Love,</hi> which is the firſt great Fruit of the Spirit, of which we have been ſpeak<g ref="char:EOLhyphen"/>ing, and ſprings immediately
+<pb n="49" facs="tcp:172743:25"/>from the true Spirit of God, as an inſeparable Fruit thereof, <hi>Gal.</hi> 5.22. <hi>The Fruit of the Spirit is Love, Joy, Peace,</hi> &amp;c. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>&amp;c.</hi> And ſo you may find the word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> Tran<g ref="char:EOLhyphen"/>ſlated <hi>Love</hi> in all theſe places following, beſides others, <hi>Mat.</hi> 24.12. <hi>John</hi> 13.34, 35. and Chap. 15.13. And again, Chap. 17.26. <hi>Rom.</hi> 8.35. and Chap. 12.9. and Chap. 13.10. 2 <hi>Cor.</hi> 2.4, 8. and Chap. 5.14. and Chap. 6.6. and Chap. 8.7, 8, 24. and Chap. 13.11. <hi>Gal.</hi> 5.6, 13, 22. <hi>Eph.</hi> 1.15. and Chap. 2.4. and Chap. 3.19. and Chap. 6.23. <hi>Phil.</hi> 1.9, 17. and Chap. 2.1, 2. <hi>Col.</hi> 1.4, 8.
+<pb n="50" facs="tcp:172743:26"/>1 <hi>Theſ.</hi> 1.3. and Chap. 4.9. and Chap. 5.8. 2 <hi>Theſ.</hi> 2.10. 1 <hi>Tim.</hi> 1.14. and Chap. 6.11. 2 <hi>Tim.</hi> 1.7. <hi>Heb.</hi> 6.10. and Chap. 10.24. 1 <hi>John</hi> 2.15. and Chap. 3.1. and Ch. 4.7, 8, 10, 16, 17. 2 <hi>John</hi> 6. <hi>Jude</hi> 2. <hi>Rev.</hi> 2.4. In all theſe places, beſides more, the word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> is Tranſlated <hi>Love.</hi>
+            </p>
+            <p>And why it ſhould be Tran<g ref="char:EOLhyphen"/>ſlated <hi>Charity,</hi> as it is rendred, 1 <hi>Cor.</hi> 13. throughout the whole Chapter, I ſee no rea<g ref="char:EOLhyphen"/>ſon. But I ſhall ſhew what reaſon I have to the Contra<g ref="char:EOLhyphen"/>ry.</p>
+            <p>We take Charity ſome<g ref="char:EOLhyphen"/>times in this Caſe, to have a good Opinion of one; or to
+<pb n="51" facs="tcp:172743:26"/>have a good Affection to one; and ſo to have a Kind, Civil Society with them, and this is good in its place. And ſome<g ref="char:EOLhyphen"/>times it is taken for a Natural Love, as among Relations, which is alſo good. Some<g ref="char:EOLhyphen"/>times alſo it is taken for an Af<g ref="char:EOLhyphen"/>fection of Pity to ſuch as are in Diſtreſs; and not only to pity them, but to diſtribute to them; and this is alſo cal<g ref="char:EOLhyphen"/>led Charity; and this is very good alſo, and very accepta<g ref="char:EOLhyphen"/>ble with the Lord, and agree<g ref="char:EOLhyphen"/>able with that Precept, <hi>Heb.</hi> 13.16. <hi>To do good, and to communicate, forget not; for with ſuch Sacrifices God is well pleaſed.</hi>
+            </p>
+            <pb n="52" facs="tcp:172743:27"/>
+            <p>But ſtill there is ſomething above theſe, which is of a more uniting Property; and that is the Love of God ſhed abroad in the Hearts of them that truly fear and love him. And hence ariſes a more Spi<g ref="char:EOLhyphen"/>ritual Love, and therein, uni<g ref="char:EOLhyphen"/>on of Spirit, not only with the Lord, but alſo with all thoſe that love and fear him, and walk in Obedience with him. And this Love is not reſtrain<g ref="char:EOLhyphen"/>ed to any one diſtinct Society only, but extends it ſelf to all that fear him, and walk hum<g ref="char:EOLhyphen"/>bly with him in every Society of People.</p>
+            <p>True Spiritual Love is an Affection of Complacency a<g ref="char:EOLhyphen"/>riſing from union of Spirit in
+<pb n="53" facs="tcp:172743:27"/>true Spiritual Obedience. Or to ſpeak more fully, True Spiritual Love (which is here ſpoken of in this 13th Chapter of 1 <hi>Cor.</hi>) is a Reflexion of God's Love ſhed abroad upon the Heart, and ſpringing up in our Hearts. And it ariſes from Faith, and is a true Fruit of Faith, For true Faith works by Love, <hi>Gal.</hi> 5.6. <hi>Neither Circumciſion availeth any thing, nor <g ref="char:V">Ʋ</g>ncircumciſion, but Faith which worketh by Love.</hi> And <hi>we love God, be<g ref="char:EOLhyphen"/>cauſe he firſt loved us,</hi> 1 <hi>John</hi> 4.19. He gives ſome ſenſe, (or underſtanding) of his Love, into our Hearts; or ſheds abroad his Love into the Hearts of them that truly
+<pb n="54" facs="tcp:172743:28"/>fear him; and thence ſprings our right, true Spiritual Love to him, and to all Men.</p>
+            <p>And this is that more ex<g ref="char:EOLhyphen"/>cellent way which the Apo<g ref="char:EOLhyphen"/>ſtle ſaid he would ſhew in the laſt Verſe of the 12th Chapter immediately going before this 13th Chapter, where he ſpeaks ſo much of Love, which he prefers before the beſt Gifts. For, ſaith he, <hi>Covet earneſtly the beſt Gifts, and yet ſhew I unto you a more excellent way.</hi> Obſerve! A more excellent way than the beſt Gifts; and that is Love. For it follows immediately, <hi>Though I ſpeak with the Tongues of Men, and of Angels, and have not Love, (<gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>) I am become as ſound<g ref="char:EOLhyphen"/>ing
+<pb n="55" facs="tcp:172743:28"/>Braſs, or a tinkling Cymbal.</hi> And ſo it's Love that is the more excellent way above the beſt Gifts and Parts, <hi>viz.</hi> pure Spiritual Love. It's above the Gift of Prophecy, (tho' that be very deſireable and profitable) it's above the Knowledge of all Myſteries: It's above Faith. Oh! the high Value that is ſet upon pure Spiritual Love by the A<g ref="char:EOLhyphen"/>poſtle <hi>Paul;</hi> and ſo alſo by the Beloved Diſciple <hi>John:</hi> For, faith he, <hi>He that loveth not, knoweth not God; for God is Love,</hi> 1 <hi>John</hi> 4.8. And a<g ref="char:EOLhyphen"/>gain, Ver. 16. <hi>God is Love, and he that dwelleth in Love, dwelleth in God, and God in him.</hi> This pure Love is a Re<g ref="char:EOLhyphen"/>flexeth
+<pb n="56" facs="tcp:172743:29"/>of the Love of God ſhed abroad upon the Hearts of them that truly fear, and love, and obey him, as hath been ſaid. As the Sun in the Firmament ſhining upon the Water, gives a Reflexion of it ſelf in the Water, ſo the Love of God ſhed abroad upon the Hearts of them that truly fear him, begets a Reſemblance of it ſelf in ſome meaſure, where Clouds of Sin or Unbelief hin<g ref="char:EOLhyphen"/>der not. And ſo our true Love of God ariſes hence, even from his Love in ſome meaſure made known to us, and ſhed abroad in our Hearts; that is, in the Hearts of thoſe that walk in Obedience and Faith before him.</p>
+            <pb n="57" facs="tcp:172743:29"/>
+            <p>Now this Love is a higher thing than Charity, and is more extenſive than Charity. For Charity reaches but to Man, but true Spiritual Love reaches forth to God, as well as to Man. He is the Object of the pureſt and higheſt Love; and he is the Fountain from whence ſuch Love flows. <hi>We love him, becauſe he loved us firſt,</hi> (1 <hi>John</hi> 4.19.) and gave his Son Chriſt Jeſus our Lord for our Redemption.</p>
+            <p>This Love that is ſo much ſpoken of in the 13th Chapter of the Firſt of <hi>Corinthians,</hi> is above Faith, and above Hope. <hi>Now abideth Faith, Hope,</hi> Love, <hi>theſe three, but the greateſt of theſe is Love,</hi> Ver. 13.</p>
+            <pb n="56" facs="tcp:172743:30"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="57" facs="tcp:172743:30"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="58" facs="tcp:172743:31"/>
+            <p>Again, the word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> be<g ref="char:EOLhyphen"/>ing Tranſlated <hi>Charity</hi> in this place, ſeems to bear a Con<g ref="char:EOLhyphen"/>tradiction in it to Ver. 3. of the ſame Chapter, 1 <hi>Cor.</hi> 3. where it is ſaid, <hi>Though I be<g ref="char:EOLhyphen"/>ſtow all my Goods to feed the Poor</hi> (what's this but Chari<g ref="char:EOLhyphen"/>ty? And yet ſaith the Tran<g ref="char:EOLhyphen"/>ſlation) <hi>and have not Charity;</hi> but it were better expreſt (I think) <hi>and have not Love,</hi> ac<g ref="char:EOLhyphen"/>cording as the word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> fre<g ref="char:EOLhyphen"/>quently ſignifies, and is for the moſt part ſo rendred, as hath been ſhewed.</p>
+            <p>And ſo that word <hi>Love</hi> would better agree with all the other Expreſſions follow<g ref="char:EOLhyphen"/>ing, in Verſes 4, 5, 6, <hi>&amp;c.</hi> than the word <hi>Charity;</hi> and
+<pb n="59" facs="tcp:172743:32"/>might be Read thus, <hi>Love ſuffereth long, and is kind, Love envyeth not, Love vaun<g ref="char:EOLhyphen"/>eth not it ſelf, is not puffed up, doth not beh<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ve it ſelf unſeemly, ſeeketh no her own, is not eaſi<g ref="char:EOLhyphen"/>ly provoked, th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nketh no evil, rejoiceth not in Iniquity: but re<g ref="char:EOLhyphen"/>joiceth in the Truth, beareth all things, beliveth all things, ho<g ref="char:EOLhyphen"/>peth all things, endureth all things:</hi> And then, <hi>ver.</hi> 8. its ſaid, <hi>Love never faileth</hi> (or endeth) <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>But Prophecies they ſhall fail, Tongues they ſhall ceaſe, know<g ref="char:EOLhyphen"/>ledge it ſhall vaniſh away. But Love ſhall never fail.</hi> There<g ref="char:EOLhyphen"/>fore this <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>this Love</hi> here ſpoken of, ſhall remain for e<g ref="char:EOLhyphen"/>ver, even to all Eternity when
+<pb n="60" facs="tcp:172743:33"/>all Objects of Charity ſhall ceaſe, and not be found.</p>
+            <p>This <hi>Love</hi> here ſpoken of is greater than Faith, or Hope; for Faith and Hope ceaſe, when the things believed and hoped for the enjoyed; <hi>but Love ſhall never ceaſe.</hi> And therefore I ſay, this Love here ſpoken of is a higher, and more continuing thing, than that which is commonly called <hi>Charity:</hi> And ſo therefore I ſay the word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> in this place ought to be Tranſlated <hi>Love.</hi>
+            </p>
+            <p>I would not have any one to think that I ſpeak againſt <hi>Charity,</hi> becauſe I ſpeak a<g ref="char:EOLhyphen"/>gainſt that Interpretation of the word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> in this place;
+<pb n="61" facs="tcp:172743:33"/>I wiſh <hi>Charity</hi> were more a<g ref="char:EOLhyphen"/>bounding than it is, among all Perſons. And that there were more tenderneſs in the Hearts of People towards the Poor, and towards them that are in Diſtreſs, than uſually they meet withal. For they that are open-hearted and o<g ref="char:EOLhyphen"/>pen-handed towards ſuch, they will not loſe their Re<g ref="char:EOLhyphen"/>ward, if in ſingleneſs of Heart they ſupply their Neceſſities. I ſhall only ſet down two or three places of Scripture to encourage People thereunto, and ſo proceed, <hi>Mat.</hi> 6.1, 2, 3, 4. 1 <hi>Tim.</hi> 6.17, 18, 19. <hi>Heb.</hi> 6.10, 11. which places of Scripture thoſe that have a mind may ſee at their leiſure.</p>
+            <pb n="62" facs="tcp:172743:34"/>
+            <p>But to return to the Subject I was ſpeaking of, which was pure Love; it is of that power that it produces unity, and ſo makes one: As we commonly ſay of Perſons that entirely love one another, They are all one. And ſo our Lord Jeſus Chriſt prayed to his Father for thoſe that believe on him, <hi>That they all may be one, as thou Father art in me, and I in thee, that they alſo may be one in us, John</hi> 17.21. And a<g ref="char:EOLhyphen"/>gain, Ver. 22. he ſaith, <hi>And the Glory which thou haſt given me, I have given them; that they may be one, even as we are one.</hi> And again ſtill further, Ver. 23. he goes on in his Prayer for thoſe that believe
+<pb n="63" facs="tcp:172743:35"/>on him, ſaying thus, <hi>I in them and thou in me; that they may be made perfect in one; and that the World may know that thou haſt ſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nt me, and haſt loved them, as thou haſt loved me.</hi>
+            </p>
+            <p>Thus we may ſee how <hi>Love</hi> bends or inclines towards Unity, and brings into Unity. And ſo herein it is greater than <hi>Charity,</hi> and muchabove <hi>Cha<g ref="char:EOLhyphen"/>rity:</hi> For there may be <hi>Chari<g ref="char:EOLhyphen"/>ty</hi> to a Perſon, or for a Per<g ref="char:EOLhyphen"/>ſon, with whom we cannot have Unity. <hi>Charity</hi> doth not make one, as <hi>Love</hi> doth. And therefore the word <hi>Charity</hi> doth not ſo fully agree with the Expreſſions here uſed by Chriſt Jeſus as <hi>Love</hi> doth; neither doth it ſo fully agree
+<pb n="64" facs="tcp:172743:36"/>with the Expreſſions uſed by the Apoſtle, 1 <hi>Cor.</hi> 13. as <hi>Love</hi> doth.</p>
+            <p>Now this true and pure Spiritual Love ſprings from hence, even from God's Love in ſome meaſure ſhed abroad in the Heart, as hath been ſhewed before; or which comes all to one, from being made Partakers of the ſame Spirit of God. And ſo there<g ref="char:EOLhyphen"/>by we are taught of God to Love one another, 1 <hi>Theſ.</hi> 4.9. and not only ſo, but to Love all Men, yea, even our very Enemies.</p>
+            <p>Oh! what an excellent Spi<g ref="char:EOLhyphen"/>rit and Temper doth the Spi<g ref="char:EOLhyphen"/>rit of God form in the Hearts of thoſe who are brought
+<pb n="65" facs="tcp:172743:37"/>down into Subjection to him; as we may obſerve to have been in the Apoſtles of Chriſt Jeſus, after they were brought fully under Subjection to the Holy Spirit.</p>
+            <p>Now where this Foundati<g ref="char:EOLhyphen"/>on (of the true Spirit) is laid, many ſweet and precious Fruits thereof will follow be<g ref="char:EOLhyphen"/>ſides Love; as namely, the comfortable ſweet Dictates of the Spirit, with many Open<g ref="char:EOLhyphen"/>ings of Truth, and Enlighten<g ref="char:EOLhyphen"/>ings, and Enlivenings of the Spirits of his Servants that walk with him in Faithful<g ref="char:EOLhyphen"/>neſs, ſo as to make their Lives comfortable, tho' they meet with outward Diſtreſſes and Troubles; as we may ſee in
+<pb n="66" facs="tcp:172743:38"/>the Apoſtle <hi>Paul</hi>'s Example, who though he met with great Troubles, yet was born up in them all, and above them. And therefore this ought to have a deep impreſſion upon our Spirits, to beget a care<g ref="char:EOLhyphen"/>fulneſs in us to walk faithfully and humbly with the Lord, who is able to carry through all Difficulties with Comfort.</p>
+            <p>After the Lord hath Con<g ref="char:EOLhyphen"/>vinced the Heart of Man of Sin, and turned it againſt it in Truth (which indeed is true Repentance) there is a fear and a care begotten in the Heart, not to offend the Lord again, together with a Sor<g ref="char:EOLhyphen"/>row for their former negligent and offenſive Life. And this
+<pb n="67" facs="tcp:172743:38"/>fear of offending the Lord is the beginning of Wiſdom, <hi>Prov.</hi> 9.10. And this fear of the Lord is to hate Evil, Chap. 8.13. And ſo it keeps the Heart of Man abiding with the Lord, as it's ſaid, <hi>Jer.</hi> 32.40. <hi>I will put my fear in their Hearts, and they ſhall not de<g ref="char:EOLhyphen"/>part from me.</hi>
+            </p>
+            <p>Now this true fear of the Lord mortifies and deads the Heart to Sin, and awakens it to Righteouſneſs; and till then Men are ſaid to be dead in Sins and Treſpaſſes, even while they live; and are as Stran<g ref="char:EOLhyphen"/>gers to God, altho' they can talk of him, and of the Holy Scriptures.</p>
+            <pb n="68" facs="tcp:172743:39"/>
+            <p>But they that come really and effectually into Obedience, the Fruits of the Spirit (Love, Joy, Peace, and ſuch like) will ſpring up in their Hearts by degrees, as the Lord ſees good to nouriſh them up therein. And thus the King<g ref="char:EOLhyphen"/>dom of God, (which is with<g ref="char:EOLhyphen"/>in us) begins in little begin<g ref="char:EOLhyphen"/>nings many times, but it is of a growing Nature; it's like a Grain of Muſtard-ſeed at firſt, but it grows to a great Tree, <hi>Mat.</hi> 13.31. And thus by degrees uſually we come to enjoy the comfortable pre<g ref="char:EOLhyphen"/>ſence of the Lord with us, or (which is all one) the ſweet preſence of the true Comfor<g ref="char:EOLhyphen"/>ter in our Hearts, that is the
+<pb n="69" facs="tcp:172743:39"/>Spirit of God. For true Com<g ref="char:EOLhyphen"/>fort ſprings up from the Spi<g ref="char:EOLhyphen"/>rit, in Obedience to him. And this is that which makes the Lives of the true Servants of the Lord Comfortable, what<g ref="char:EOLhyphen"/>ſoever Adverſity or Contra<g ref="char:EOLhyphen"/>diction they meet withal from the World.</p>
+            <p>For our Happineſs and Con<g ref="char:EOLhyphen"/>ſolation doth not depend upon an Opinion, but upon our U<g ref="char:EOLhyphen"/>nion and Fellowſhip with the Lord, which is enjoyed in O<g ref="char:EOLhyphen"/>bedience and Faith, which the Spirit of God works in the Hearts of the truly humble. And this is agreeable to that which the Apoſtle ſaith, 2 <hi>Theſ.</hi> 2.13. that <hi>we are cho<g ref="char:EOLhyphen"/>ſen to Salvation through San<g ref="char:EOLhyphen"/>ctification
+<pb n="70" facs="tcp:172743:40"/>of the Spirit, and Belief of the Truth;</hi> which in effect is the ſame with Obedi<g ref="char:EOLhyphen"/>ence and Faith. For the Ho<g ref="char:EOLhyphen"/>ly Spirit ſanctifies in Obedi<g ref="char:EOLhyphen"/>ence, not in Diſobedience; and Faith, and Belief of the Truth, or true Belief is one, above ſuch Belief as the Devils have, who tho' they believe and tremble, yet ſtill unſan<g ref="char:EOLhyphen"/>ctified; but ſuch Faith as works by Love, and hath Love ſpringing up in it: Such Faith with Obedience, is that which accompanies (or is a ground of) our Juſtification, Sanctification, and Salvation.</p>
+         </div>
+         <div type="postscript">
+            <pb n="71" facs="tcp:172743:40"/>
+            <head>POSTSCRIPT.</head>
+            <p>SInce this was writ, I have ſeen in the Hands of a Neighbour a Bible Printed in the Year <hi>1<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>87.</hi> wherein the word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> is altogether Tranſlated <hi>Love</hi> in this <hi>1 Cor. 13.</hi> as I have rendred i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>: Therefore I hope my rendring it ſo will not be look'd upon as a Novel Con<g ref="char:EOLhyphen"/>ceit.</p>
+            <p>And let this be noted, that I do not impute any blame to the Tranſlators, who have in our Bibles rendred the word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> by the word <hi>Charity.</hi> For the word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> comprehends <hi>Chari<g ref="char:EOLhyphen"/>ty;</hi> and it may be they might
+<pb n="72" facs="tcp:172743:41"/>ſee that at that time there was need to reade it ſo, to ſtir Peo<g ref="char:EOLhyphen"/>ple up to ſo good a Work. But that word <hi>Charity</hi> doth not fully reach to all the Expreſſions or Significations of the word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> here in this Chapter as <hi>Love</hi> doth; for <hi>Charity</hi> re<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ches but to Man, but <hi>Love</hi> r<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>aches <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o God as well as to Man, <hi>1 John 4.19. Charity</hi> ceaſeth when the Objects of <hi>Charity</hi> c<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>aſe; but <hi>Love</hi> ſha<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>l never ceaſe or fail, <hi>1 Cor. 13.8.</hi> For ſo it may truly b<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> read, <hi>Love</hi> never fail<g ref="char:EOLhyphen"/>eth or ceaſeth.</p>
+            <closer>
+               <signed>William Tomlinſon.</signed>
+            </closer>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
